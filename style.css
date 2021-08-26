@@ -125,7 +125,83 @@ html {
   }
   /* akhir hero img */
   
+  .image{
+    padding: 50px 90px;
+  }
+  .text-contents{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    padding: 5px 90px;
+  }
+  .txt{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    padding-top: 1em;
+    width: 65%;
+    padding-right:90px;
+    text-align: right;
+    float: right;
+  }
+  .txt_2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    padding-top: 2em;
+    width: 65%;
+    padding-right:90px;
+    text-align: right;
+    float: right;
+  }
+ 
+  .image-brands{
+    padding: 5px 90px;
+    float: left;
+    width: 17%;
   
+  }
+  .brands{
+    position: relative;
+  }
+  .image-brands .button {
+    margin-top: 25px;
+    padding: 12px 40px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    border: none;
+    border-radius: 25px;
+    background: rgb(33, 36, 51);
+    color: white;
+    transition: 0.5s;
+    cursor: pointer;
+  }
+  
+  .image-brands .button:hover {
+    background: white;
+    color: black;
+    border: 2px solid black;
+  }
+  .img-full{
+    margin-top: 550px;
+    padding: 0px 90px;
+    z-index: 1;
+    position: relative;
+  }
+  .txt_img{
+    position: absolute;
+	  margin-top: -540px;
+    padding: 0px 140px;
+		z-index: 2;
+    color:white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 36px;
+  }
+  .image-stories{
+    padding: 5px 90px;
+    float: left;
+    width: 30%;
+  }
+  .brands{
+    position: relative;
+  }
   
   
   /* Responsive */
@@ -146,6 +222,7 @@ html {
       font-size: 14px;
       
     }
+    
   }
   
   @media screen and (max-width: 760px) {
@@ -155,6 +232,10 @@ html {
   
     .container a {
       line-height: 78px;
+    }
+    .image-brands {
+      width: 50%;
+      margin-bottom: 50px;
     }
   }
   
