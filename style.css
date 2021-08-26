@@ -125,6 +125,57 @@ section {
 }
 /* akhir hero img */
 
+/* content */
+.image{
+  padding: 50px 90px;
+}
+.text-contents{
+  padding: 5px 90px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 22px;
+}
+.image-brands{
+  padding: 5px 90px;
+  float: left;
+  width: 17%;
+
+}
+.brands{
+  position: relative;
+}
+.image-brands .button {
+  margin-top: 25px;
+  padding: 12px 40px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
+  border: none;
+  border-radius: 25px;
+  background: rgb(33, 36, 51);
+  color: white;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.image-brands .button:hover {
+  background: white;
+  color: black;
+  border: 2px solid black;
+}
+.img-full{
+  margin-top: 530px;
+  padding: 0px 90px;
+}
+.image-stories{
+  padding: 5px 90px;
+  float: left;
+  width: 30%;
+}
+.brands{
+  position: relative;
+}
+
+
+
 /*footer*/
 .footer-container p {
   color: white;
