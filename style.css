@@ -225,7 +225,10 @@ footer {
   color: #787a91;
   line-height: 0.5cm;
 }
-
+.footer-item a {
+  text-decoration: none;
+  color: #787a91;
+}
 
 
 
