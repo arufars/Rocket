@@ -178,6 +178,8 @@ section {
   position: relative;
 }
 .txt{
+  text-decoration: none;
+  color: black;
   font-family: 'Montserrat', sans-serif;
   font-size: 12px;
   float: right;
@@ -187,6 +189,8 @@ section {
   padding: 5px 90px;
 }
 .txt_2{
+  text-decoration: none;
+  color: black;
   font-family: 'Montserrat', sans-serif;
   font-size: 12px;
   float: right;
@@ -197,7 +201,7 @@ section {
 }
 .txt_img{
   position: absolute;
-  top: 54em;
+  top: 56em;
   z-index: 2;
   color: white;
   padding: 5px 140px;
@@ -206,7 +210,7 @@ section {
 }
 .txt_product{
   position: absolute;
-  top: 196em;
+  top: 169em;
   z-index: 2;
   color: white;
   padding: 5px 140px;
