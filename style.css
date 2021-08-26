@@ -125,7 +125,57 @@ html {
   }
   /* akhir hero img */
   
+  /*footer*/
+  .footer-container p {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    line-height: 0.3cm;
+  }
+  .footer-container h1 {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    border-bottom: 0.5px solid #dee7ec;
+    padding-bottom: 40px;
+    font-weight: lighter;
+  }
   
+  li {
+    list-style: none;
+  }
+
+  footer {
+    margin: 0;
+    padding-top: 40px;
+  }
+  .footer-container {
+    float: left;
+    padding-top: 35px;
+    padding-bottom: 0px;
+    padding-left: 10%;
+    padding-right: 10%;
+    background-color: #33334a;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .footer-list {
+    float: right;
+    padding-top: 0;
+    
+  }
+
+  .footer-item {
+    float: left;
+
+  }
+  .footer-item li{
+    font-size: 12px;
+    color: #787a91;
+    line-height: 0.5cm;
+  }
+
+
   
   
   /* Responsive */
