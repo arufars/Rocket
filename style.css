@@ -144,6 +144,16 @@ section {
 .brands{
   position: relative;
 }
+
+.brands img {
+  transition: transform 1s, filter 1.1s ease-in-out;
+  transform-origin: center center;
+}
+
+.brands img:hover {
+  transform: scale(1.08);
+}
+
 .image-brands .button {
   margin-top: 25px;
   padding: 12px 40px;
@@ -171,6 +181,12 @@ section {
 
 .img-full img {
   filter: brightness(80%);
+  transition: 0.5s;
+}
+
+.img-full img:hover {
+  filter: brightness(100%);
+  transform-origin: top;
 }
 
 .image-stories{
@@ -269,20 +285,21 @@ footer {
   padding-bottom: 40px;
 }
 
-.footer-item a:hover {
+.footer-item {
   float: left;
 
 }
-.footer-item li{
+.footer-item li a {
+  color: #787a91;
   font-size: 12px;
-  color: #787a91;
   line-height: 0.5cm;
-}
-.footer-item a {
   text-decoration: none;
-  color: #787a91;
+  transition: 0.5s;
 }
 
+.footer-item li a:hover {
+  color: white;
+}
 
 
 /* Responsive */
