@@ -173,7 +173,24 @@ section {
 .brands{
   position: relative;
 }
-
+.txt{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
+  float: right;
+  text-align: right;
+  margin-top: 2em;
+  width: 65%;
+  padding: 5px 90px;
+}
+.txt_2{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
+  float: right;
+  text-align: right;
+  margin-top: 2em;
+  width: 65%;
+  padding: 5px 90px;
+}
 
 
 /*footer*/
