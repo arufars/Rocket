@@ -164,6 +164,8 @@ section {
 .img-full{
   margin-top: 530px;
   padding: 0px 90px;
+  position: relative;
+	z-index: 1;
 }
 .image-stories{
   padding: 5px 90px;
@@ -189,7 +191,25 @@ section {
   text-align: right;
   margin-top: 2em;
   width: 65%;
-  padding: 5px 91px;
+  padding: 5px 90px;
+}
+.txt_img{
+  position: absolute;
+  top: 54em;
+  z-index: 2;
+  color: white;
+  padding: 5px 140px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 34px;
+}
+.txt_product{
+  position: absolute;
+  top: 196em;
+  z-index: 2;
+  color: white;
+  padding: 5px 140px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
 }
 
 
