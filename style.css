@@ -166,11 +166,13 @@ section {
   padding: 0px 90px;
   position: relative;
 	z-index: 1;
+  filter: brightness(80%);
 }
 .image-stories{
   padding: 5px 90px;
   float: left;
   width: 30%;
+  filter: brightness(70%);
 }
 .brands{
   position: relative;
