@@ -217,8 +217,9 @@ section {
   font-size: 62px;
 }
 .txt_product{
+  text-decoration: none;
   position: absolute;
-  top: 2em;
+  top: 9em;
 	right: 0;
   z-index: 2;
   color: white;
@@ -268,7 +269,7 @@ footer {
   padding-bottom: 40px;
 }
 
-.footer-item {
+.footer-item a:hover {
   float: left;
 
 }
